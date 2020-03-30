@@ -1,0 +1,154 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.wrapper{
+    margin: 3rem 3rem 0 3rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h2 {
+    font-size: 1.5rem;
+    color: #A51F10;
+    margin: 0;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.rightheader{
+    align-self: center;
+    margin-left: 1rem;
+}
+
+.rightheader h1{
+    margin-bottom: 0rem;
+}
+
+.rightheader p{
+    margin-top: 0rem;
+    font-size: 1.5rem;
+}
+
+/* you should always use this formula with nav bars:
+    nav{
+        margin: 0;
+        padding: 0; */
+
+nav ul{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    border-top: 2px solid pink;
+    border-bottom: 2px solid pink;
+    padding: 0.5rem;
+}
+
+nav li{
+    list-style-type: none;
+    flex-basis: 10%;
+}
+
+nav a{
+    display: block;
+}
+
+section{
+    background-color: rgba(255, 192, 203, 0.4);
+    padding: 1rem;
+    border-radius: 70%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+section article:nth-child(1){
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+section article:nth-child(2){
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.article1, .article2{
+    margin: 0 3rem 3rem 3rem;
+    width: 60%;
+}
+
+article img{
+    border-radius: 10%;
+}
+
+footer{
+    padding: 2rem 2rem 0 2rem;
+    border-top: 2px solid pink;
+}
+
+footer ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+footer li{
+    padding: 0 0.5rem;
+}
+
+/* another way of doing this with display: inline-block:
+
+footer{
+    text-align: center;
+}
+
+footer ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+footer li{
+    display: inline-block;
+}
+*/
+
+
+
+
+
